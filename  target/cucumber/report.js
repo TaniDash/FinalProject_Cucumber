@@ -13,7 +13,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 2291535900,
+  "duration": 2336830100,
   "status": "passed"
 });
 formatter.scenario({
@@ -55,25 +55,25 @@ formatter.match({
   "location": "BackgorundColorStepDefinition.button_exists(String)"
 });
 formatter.result({
-  "duration": 723543100,
+  "duration": 719344800,
   "status": "passed"
 });
 formatter.match({
   "location": "BackgorundColorStepDefinition.user_clicks_on_the_Set_Sky_Blue_Background_button()"
 });
 formatter.result({
-  "duration": 3067713300,
+  "duration": 3064916400,
   "status": "passed"
 });
 formatter.match({
   "location": "BackgorundColorStepDefinition.the_background_color_will_change_to_sky_blue()"
 });
 formatter.result({
-  "duration": 367095300,
+  "duration": 334640300,
   "status": "passed"
 });
 formatter.before({
-  "duration": 1363102900,
+  "duration": 1336464800,
   "status": "passed"
 });
 formatter.scenario({
@@ -115,21 +115,21 @@ formatter.match({
   "location": "BackgorundColorStepDefinition.button_exists(String)"
 });
 formatter.result({
-  "duration": 742262300,
+  "duration": 681369300,
   "status": "passed"
 });
 formatter.match({
   "location": "BackgorundColorStepDefinition.user_should_be_able_to_click_on_the_button()"
 });
 formatter.result({
-  "duration": 3088262100,
+  "duration": 3072975900,
   "status": "passed"
 });
 formatter.match({
   "location": "BackgorundColorStepDefinition.the_background_color_will_change_to_white()"
 });
 formatter.result({
-  "duration": 334892100,
+  "duration": 249349000,
   "status": "passed"
 });
 });

@@ -1,6 +1,7 @@
 package steps;
 
 import org.openqa.selenium.support.PageFactory;
+import cucumber.api.java.After;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -17,12 +18,17 @@ public class BackgorundColorStepDefinition extends TestBase{
 		backgroundColorPage= PageFactory.initElements(driver, BackgroundColorPage.class);
 	}
 	
-	@Given("^\"([^\"]*)\" button exists$")
-	public void button_exists(String buttonValidation) {
-	    driver.get("https://techfios.com/test/101/");
+	
+	@Given("^Verify Set SkyBlue Background button exists$")
+	public void verify_Set_SkyBlue_Background_button_exists() {
 	    backgroundColorPage.checkSetSkyBlueButton();
-	    backgroundColorPage.checkSetWhiteButton();   
 	}
+
+	@Given("^Verify  Set White Background button exists$")
+	public void verify_Set_White_Background_button_exists()  {
+	    backgroundColorPage.checkSetWhiteButton();  
+	}
+
 
 	@When("^User clicks on the Set Sky Blue Background button$")
 	public void user_clicks_on_the_Set_Sky_Blue_Background_button()  {
@@ -45,9 +51,8 @@ public class BackgorundColorStepDefinition extends TestBase{
 //		}
 //	}
 	
-
-	@When("^User should be able to click on the button$")
-	public void user_should_be_able_to_click_on_the_button() {
+	@When("^User clicks on the  Set White Background button$")
+	public void user_clicks_on_the_Set_White_Background_button() {
 	    backgroundColorPage.clickSetWhiteBackgroundButton();
 	}
 	
@@ -63,5 +68,10 @@ public class BackgorundColorStepDefinition extends TestBase{
 	    takeScreenshot(driver);
 	}
 	
+	@After
+	public static void tearDown() {
+		driver.close();
+		driver.quit();
+	}
 	
 }

@@ -22,7 +22,8 @@ public class TestBase {
 	  driver.manage().window().maximize();
 	  driver.manage().deleteAllCookies();
 	  driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
-	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);  
+	  driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); 
+	   driver.get("https://techfios.com/test/101/");
 
 	 } 
 

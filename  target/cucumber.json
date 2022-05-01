@@ -3,10 +3,43 @@
     "line": 2,
     "elements": [
       {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 166040000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Verify Set SkyBlue Background button exists",
+            "match": {
+              "location": "BackgorundColorStepDefinition.verify_Set_SkyBlue_Background_button_exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 57914100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify  Set White Background button exists",
+            "match": {
+              "location": "BackgorundColorStepDefinition.verify_Set_White_Background_button_exists()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
         "before": [
           {
             "result": {
-              "duration": 2336830100,
+              "duration": 2817172700,
               "status": "passed"
             },
             "match": {
@@ -14,7 +47,7 @@
             }
           }
         ],
-        "line": 5,
+        "line": 9,
         "name": "User should be able change and validate Sky Blue Background",
         "description": "",
         "id": "techfios-test-webpage-background-color-functionality--validation;user-should-be-able-change-and-validate-sky-blue-background",
@@ -23,28 +56,10 @@
         "steps": [
           {
             "result": {
-              "duration": 719344800,
+              "duration": 3065864200,
               "status": "passed"
             },
-            "line": 7,
-            "name": "\"Set SkyBlue Background\" button exists",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Set SkyBlue Background",
-                  "offset": 1
-                }
-              ],
-              "location": "BackgorundColorStepDefinition.button_exists(String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 3064916400,
-              "status": "passed"
-            },
-            "line": 8,
+            "line": 11,
             "name": "User clicks on the Set Sky Blue Background button",
             "match": {
               "location": "BackgorundColorStepDefinition.user_clicks_on_the_Set_Sky_Blue_Background_button()"
@@ -53,10 +68,10 @@
           },
           {
             "result": {
-              "duration": 334640300,
+              "duration": 313332500,
               "status": "passed"
             },
-            "line": 9,
+            "line": 12,
             "name": "The background color will change to sky blue",
             "match": {
               "location": "BackgorundColorStepDefinition.the_background_color_will_change_to_sky_blue()"
@@ -66,8 +81,41 @@
         ],
         "tags": [
           {
-            "line": 4,
+            "line": 8,
             "name": "@Test1"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 59912600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Verify Set SkyBlue Background button exists",
+            "match": {
+              "location": "BackgorundColorStepDefinition.verify_Set_SkyBlue_Background_button_exists()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 53212600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify  Set White Background button exists",
+            "match": {
+              "location": "BackgorundColorStepDefinition.verify_Set_White_Background_button_exists()"
+            },
+            "keyword": "And "
           }
         ]
       },
@@ -75,7 +123,7 @@
         "before": [
           {
             "result": {
-              "duration": 1336464800,
+              "duration": 1803207300,
               "status": "passed"
             },
             "match": {
@@ -83,7 +131,7 @@
             }
           }
         ],
-        "line": 12,
+        "line": 15,
         "name": "User should be able change and validate White Background",
         "description": "",
         "id": "techfios-test-webpage-background-color-functionality--validation;user-should-be-able-change-and-validate-white-background",
@@ -92,40 +140,22 @@
         "steps": [
           {
             "result": {
-              "duration": 681369300,
+              "duration": 3072732400,
               "status": "passed"
             },
-            "line": 14,
-            "name": "\"Set White Background\" button exists",
+            "line": 17,
+            "name": "User clicks on the  Set White Background button",
             "match": {
-              "arguments": [
-                {
-                  "val": "Set White Background",
-                  "offset": 1
-                }
-              ],
-              "location": "BackgorundColorStepDefinition.button_exists(String)"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 3072975900,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "User should be able to click on the button",
-            "match": {
-              "location": "BackgorundColorStepDefinition.user_should_be_able_to_click_on_the_button()"
+              "location": "BackgorundColorStepDefinition.user_clicks_on_the_Set_White_Background_button()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 249349000,
+              "duration": 274404100,
               "status": "passed"
             },
-            "line": 16,
+            "line": 18,
             "name": "The background color will change to white",
             "match": {
               "location": "BackgorundColorStepDefinition.the_background_color_will_change_to_white()"
@@ -135,7 +165,7 @@
         ],
         "tags": [
           {
-            "line": 11,
+            "line": 14,
             "name": "@Test2"
           }
         ]
